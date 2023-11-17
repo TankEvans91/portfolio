@@ -1,0 +1,125 @@
+html{
+      scroll-behavior: smooth;
+}
+
+body{
+      background-image: url(./background.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin-bottom: 95px;
+}
+p{
+      text-align: justify;
+}
+#container{
+      
+      width: 1000px;
+      box-sizing: border-box;      
+      margin: 0 auto;
+      
+}
+#top{
+      background-color: grey;
+      padding: 50px;
+      position: relative;
+}
+#title{
+      font-size: 50px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+}
+#menu{
+      background-color: black;
+      padding: 20px;
+      margin: 1px 0;
+      
+      top: 0px;
+}
+#menu a{
+      display: inline;
+      position: center;
+      text-decoration: none;
+      color: white;
+      padding: 5px;
+      margin-left: 50px;
+
+}
+#menu a:hover{
+      background-color: white;
+      color: black;
+      transition: 0.7s;
+      padding: 10px;
+}
+#middle{
+      background-color: yellow;     
+      padding: 50px;
+}
+.gallery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      list-style-type: none;
+}
+.thumbnail{
+      border: solid 3px black;
+      border-radius: 15px;
+      box-shadow: 0 0 48px 1px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      margin: 32px;
+      max-height: 200px;
+      max-width: 300px;
+      transform: scale(1);
+      transition: 0.3s;
+}
+.thumbnail:hover{
+      transform: scale(1.4);
+}
+.thumbnail img{
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+
+}
+#obrazek{
+      float: right;
+      border-radius: 20px;
+      
+      
+}
+
+#container address{
+      color: black;
+      position: absolute;
+      margin-left: 500px;
+      right: 20px;
+      top: 20px;
+}
+#goToTop{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      background-color: grey;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+      border-radius: 20px;
+}
+#goToTop:hover{
+      background-color: yellow;
+      color: black;
+      transition: 0.7s;
+      
+}
+#footer{
+      background-color: gray;
+      padding: 20px;
+}
+#cookie-message{
+      background-color: black;
+      padding: 20px;
+      color: white;
+      position: fixed;
+      bottom: 0;
+}
+
+
